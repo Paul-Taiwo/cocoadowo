@@ -1,0 +1,12 @@
+.hero {
+    background: linear-gradient(rgba(61, 124, 56, 0.8), rgba(0, 0, 0, 0.5)) center center / cover,
+    url(/front/img/bg/bg-1.jpg);
+    width: 1440px;
+    position: relative;
+    left: 0px;
+    top: 0px;
+    z-index: 999;
+    opacity: 1
+}
+
+.jumbotron_text {width: 55%}

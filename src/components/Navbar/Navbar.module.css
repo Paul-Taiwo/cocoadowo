@@ -1,0 +1,25 @@
+.navbar {
+    background-color: #FFF !important;
+    border: 1px solid red;
+}
+
+.appLogo {
+    width: 200px;
+
+}
+
+.btnGreen {
+    background-color: #2fc469 !important;
+    border-color: #2fc469 !important;
+}
+
+.outline_btnGreen {
+    color: #2fc469 !important;
+    border-color: #2fc469 !important;
+}
+
+@media screen and (max-width: 768px) {
+    .mb_sm_3 {
+        padding-bottom: 1rem !important;
+    }
+}
