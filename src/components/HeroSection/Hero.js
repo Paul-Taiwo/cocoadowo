@@ -15,7 +15,7 @@ const Hero = () =>
                     farming and increased food security.
                 </p>
                 <p>
-                    <Button variant="primary">Get Started</Button>
+                    <Button className="btnGreen">Get Started</Button>
                 </p>
             </div>
             </Container>

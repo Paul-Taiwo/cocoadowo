@@ -1,9 +1,10 @@
-import React, { Component } from 'react';
+import React from 'react';
 import {
     Navbar,
     Nav,
     Button
 } from 'react-bootstrap';
+import { NavLink } from 'react-router-dom';
 import logo from '../../images/logo.png';
 import classes from './Navbar.module.css';
 
@@ -20,10 +21,10 @@ const NavBar = (props) => {
             <Navbar.Collapse className="justify-content-end" id="basic-navbar-nav">
                 <Nav className="" as="ul">
                     <Nav.Item as="li">
-                        <Nav.Link href="#home">Home</Nav.Link>
+                        <Nav.Link as={NavLink} to="/">Home</Nav.Link>
                     </Nav.Item>
                     <Nav.Item as="li">
-                        <Nav.Link href="#link">About</Nav.Link>
+                        <Nav.Link as={NavLink} to="/about">About</Nav.Link>
                     </Nav.Item>
                     <Nav.Item as="li">
                         <Nav.Link href="#link">Blog</Nav.Link>

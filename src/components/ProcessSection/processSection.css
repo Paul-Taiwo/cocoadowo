@@ -1,0 +1,36 @@
+.header {
+    color: #3f7d3a;
+    position: relative;
+    padding-left: 3.5rem;
+}
+
+.header::before {
+    content: '';
+    background-color: #3f7d3a;
+    height: 5px;
+    width: 22px;
+    position: absolute;
+    bottom: 0;
+    left: 34px;
+}
+
+.bg1 {
+    background: linear-gradient(66deg, #e4e6f1 19%, #fafafc 55%, #fcfbfe 95%);
+}
+
+.bg2 {
+    background: linear-gradient(to right, #e0e8f1 22%,#ffffff 59%, #ffffff);
+}
+
+@media screen and (min-width: 600px) {
+    .font-20 {
+        font-size: 1.3em;
+
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    h5.header-right {
+        left: 51% !important;
+    }
+}
